@@ -1,0 +1,39 @@
+body {
+  margin: 10px;
+}
+
+/*  [description]
+  # -->  > Product er direct child green.
+  # -->  ~ Product er bairer shob p goldenrod.
+  # -->  + Product er bairer first p blue.
+  # -->  #products p --> Product er direct child hok or nahok, shod red
+*/
+
+/* productOne er direct child green. */
+#productsOne > p {
+  color: green;
+  font-weight: bold;
+}
+
+/* Product er bairer FIRST p blue. */
+#productsTwo + p {
+  color: blue;
+  font-weight: bold;
+}
+
+/* productThree er direct child hok or nahok, shod red */
+#productsThree p {
+  color: red;
+}
+
+/* 
+1. productsTwo er bairer shob p
+2. NOTE: *  ~ aitar akta WIRED behavior ase.
+         *  productsFour er niche je productsFive o auto style peye gese :/
+         *  karon [productsFour & productsFive] er html stucture same to same
+
+
+*/
+#productsFour ~ p {
+  color: goldenrod;
+}

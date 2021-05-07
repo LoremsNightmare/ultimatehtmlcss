@@ -1,0 +1,33 @@
+body {
+  margin: 10px;
+}
+
+/*  [description]
+  # --> 'h2' has specificity is 1
+  # --> '.highlight' class has specificity is 10  
+  # --> '#product' id class has specificity is 100
+  # --> ' .section #product ' combined has specificity is 110
+  # --> here 110 is larger so its style will applied.
+  # --> !important is not good for define 'specificity'
+  # --> [ hover over selector to see specificity ]
+*/
+
+h2 {
+  /*specificity: 1 */
+  color: red;
+}
+
+.highlight {
+  /*specificity: 10 */
+  color: blue;
+}
+
+#product {
+  /*specificity: 100 */
+  color: deeppink;
+}
+
+.section #product {
+  /*specificity: 110 */
+  color: goldenrod;
+}

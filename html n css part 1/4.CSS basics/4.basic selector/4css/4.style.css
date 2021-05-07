@@ -1,0 +1,28 @@
+body {
+  margin: 10px;
+}
+
+/*  
+  # --> here * (after href) means if its 'contains' facebook
+  # --> here ^ (after href) means if its 'starts' with www
+  # --> here $ (after href) means if its 'ends' with /login
+*/
+
+/* 01 to style all href with exact same link  */
+a[href="https://www.google.com"]
+{
+  color: orange;
+}
+
+/* 02. any href 'contains' facebook*/
+a[href*="facebook"] {
+  color: red;
+}
+/* 03. href 'starts' with www */
+a[href^="www"] {
+  color: pink;
+}
+/* 04. href ends with /login */
+a[href$="/login"] {
+  color: green;
+}

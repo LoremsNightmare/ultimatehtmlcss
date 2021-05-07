@@ -1,0 +1,14 @@
+body {
+  margin: 10px;
+}
+
+/*  [description]
+  # --> I'm smart I know what color is...(HSL, rgba) is my fav color system
+  # --> good site for hsl value [ https://mothereffinghsl.com/ ]
+*/
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: hsl(209, 94%, 50%);
+}

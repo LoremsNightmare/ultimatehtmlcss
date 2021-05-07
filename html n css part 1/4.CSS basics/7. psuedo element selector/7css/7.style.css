@@ -1,0 +1,41 @@
+body {
+  margin: 10px;
+}
+
+/*  [description]
+  # --> 
+  # --> 
+          
+  # --> 
+  # --> 
+*/
+
+.diffOne p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+.diffTwo p::first-line {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+/* text select korle background color */
+::selection {
+  background-color: deepskyblue;
+}
+
+.diffThree ::before,
+.diffThree ::after {
+  content: "...";
+  display: block;
+  font-size: 140%;
+  font-weight: bold;
+}
+
+/* caile alada likha jay. */
+/* .diffThree ::after {
+  content: "...";
+  display: block;
+
+} */

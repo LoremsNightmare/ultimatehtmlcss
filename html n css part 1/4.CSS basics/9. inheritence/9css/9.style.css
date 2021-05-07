@@ -1,0 +1,24 @@
+body {
+  margin: 10px;
+}
+
+/*  [description]
+  # --> inheritence is a important part to understand.
+  # --> In a 'p' tag we've used a 'strong' tag. 
+        now if we set color to 'p' tag, 'strong' automatically 'inherite' its style
+  # --> if you dont want the 'inherited style', use 'initial' as value of that 
+        property.
+  # --> there are some style which does not inherites, like border.
+  # --> if we want to 'inherite' the style we'll use 'inherite ' as the value
+        of the border property.
+*/
+
+p {
+  color: dodgerblue;
+  border: 1px solid black;
+}
+
+strong {
+  color: initial;
+  border: inherit;
+}

@@ -1,0 +1,12 @@
+body {
+  margin: 10px;
+}
+
+/*[description]
+  # --> there are two types of gradient[ linear-gradient, radial-gradient]
+        Radial creates a circular pattern  
+  # --> its better to create 'gradient' from website. 
+  # --> to use gradient, we'll use the 'bvackground' property.
+        instead of the 'background-color'.
+  # --> good site for gradient  [ https://cssgradient.io/ ]
+*/

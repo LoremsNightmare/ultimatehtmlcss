@@ -1,0 +1,42 @@
+body {
+  margin: 10px;
+}
+
+/*  [description]
+  # --> [ :first-child ] article tag er first child .
+  # --> [ :first-of-type] holo article tag er vitore joto type/tag thakbe [h2, p],
+          just oguloke selecte kore n style apply kore
+  # --> a:visited & a:link  er majhkhane MUST "," dite hobe. 
+  # --> 
+*/
+
+/* ' :first-child ' is called psuedo class 'selector' */
+
+article :first-of-type {
+  font-size: 140%;
+  font-style: italic;
+}
+
+article :last-child {
+  color: dodgerblue;
+}
+
+ul :nth-child(odd) {
+  /* odd er jaygay 3n or 2n use kora jay*/
+  color: deeppink;
+}
+ul :nth-child(even) {
+  /* odd er jaygay 3n or 2n use kora jay*/
+  color: goldenrod;
+}
+
+/* a:visited & a:link  er majhkhane MUST "," dite hobe */
+a:visited,
+a:link {
+  color: dodgerblue;
+}
+
+a:hover,
+a:focus {
+  color: deeppink;
+}
