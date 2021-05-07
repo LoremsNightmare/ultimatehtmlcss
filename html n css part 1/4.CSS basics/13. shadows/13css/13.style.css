@@ -1,0 +1,27 @@
+body {
+  margin: 10px;
+}
+
+/*[description]
+  # --> always use this: 
+        [ box-shadow: 0 0 30px gray; ]
+        [ text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); ]
+        
+  # --> 
+*/
+
+.box {
+  height: 200px;
+  width: 400px;
+  background-color: dodgerblue;
+  box-shadow: 0 0 30px gray;
+}
+
+h1 {
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+div {
+  margin: 10px;
+}

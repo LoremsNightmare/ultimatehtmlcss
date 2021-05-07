@@ -1,0 +1,28 @@
+table,
+th,
+td {
+  border-bottom: 1px solid #c4dcf3;
+  border-collapse: collapse;
+}
+
+th {
+  color: white;
+  background-color: #427fef;
+  padding: 2px;
+}
+
+tbody + th :nth-child(odd) {
+  background-color: #eef7ff;
+}
+
+/* CSS Basics2codewithmosh.com2.Create a box as shown below.•
+Dimension: 300px x 300px•
+Background color: tomato•Shadow color: lightgrey */
+
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: tomato;
+  box-shadow: 10px 10px lightgrey;
+  border-radius: 10px;
+}

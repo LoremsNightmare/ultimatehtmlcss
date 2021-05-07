@@ -10,3 +10,26 @@ body {
         instead of the 'background-color'.
   # --> good site for gradient  [ https://cssgradient.io/ ]
 */
+
+.box {
+  height: 200px;
+  width: 400px;
+  background-color: dodgerblue;
+  border: 10px dotted royalblue;
+  border-top: 10px solid royalblue;
+  border-bottom: 10px dashed royalblue;
+  border-width: 10px 20px;
+  border-radius: 10px;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: dodgerblue;
+  border-radius: 100%;
+  border: 10px dashed royalblue;
+}
+
+div {
+  margin: 10px;
+}
