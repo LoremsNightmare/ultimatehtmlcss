@@ -11,7 +11,7 @@ th {
   padding: 2px;
 }
 
-tbody + th :nth-child(odd) {
+td:nth-child(odd) {
   background-color: #eef7ff;
 }
 
